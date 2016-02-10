@@ -9,7 +9,7 @@ def fib_dynamic(n)
   memory = [0,1,1]
   return memory[n] if n <= 2
 
-  (2..n).each do |i|
+  (3..n).each do |i|
     memory[i] = memory[i-1] + memory[i-2]
   end
 
